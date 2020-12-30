@@ -12,8 +12,8 @@
 <div class="row">
     <div class="col-md-6">
         <div class="well">
-            <h1>@Model.SeriesTitle</h1>
-            <h2>Issue #@Model.IssueNumber</h2>
+            <h5>Series Title: @Model.SeriesTitle</h5>
+            <h5>Issue #: @Model.IssueNumber</h5>
             <h5><label>Favorite:</label> @(Model.Favorite ? "Yes" : "No")</h5>
             @if (Model.Artists.Length > 0)
             {
@@ -39,8 +39,6 @@
 
 
 
-<h1>@Model.SeriesTitle</h1>
-<h2>Issue #@Model.IssueNumber</h2>
 
 
 
